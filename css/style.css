@@ -1,0 +1,329 @@
+@font-face {
+    src: url('../fonts/Inconsolata-Black.ttf');
+    font-family: Inconsolata-Black;
+}
+
+@font-face {
+    src: url('../fonts/Inconsolata-Bold.ttf');
+    font-family: Inconsolata-Bold;
+}
+
+@font-face {
+    src: url('../fonts/Inconsolata-Medium.ttf');
+    font-family: Inconsolata-Medium;
+}
+
+@font-face {
+    src: url('../fonts/Inconsolata-Regular.ttf');
+    font-family: Inconsolata-Regular;
+}
+
+@font-face {
+    src: url('../fonts/PlayfairDisplay-Black.ttf');
+    font-family: PlayfairDisplay-Black;
+}
+
+@font-face {
+    src: url('../fonts/PlayfairDisplay-Bold.ttf');
+    font-family: PlayfairDisplay-Bold;
+}
+
+@font-face {
+    src: url('../fonts/PlayfairDisplay-Medium.ttf');
+    font-family: PlayfairDisplay-Medium;
+}
+
+@font-face {
+    src: url('../fonts/PlayfairDisplay-Regular.ttf');
+    font-family: PlayfairDisplay-Regular;
+}
+
+@font-face {
+    src: url('../fonts/Ubuntu-Bold.ttf');
+    font-family: Ubuntu-Bold;
+}
+
+@font-face {
+    src: url('../fonts/Ubuntu-Light.ttf');
+    font-family: Ubuntu-Light;
+}
+
+@font-face {
+    src: url('../fonts/Ubuntu-Regular.ttf');
+    font-family: Ubuntu-Regular;
+}
+
+@font-face {
+    src: url('../fonts/Ubuntu-Medium.ttf');
+    font-family: Ubuntu-Medium;
+}
+
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: PlayfairDisplay-Regular;
+    color: #626262;
+}
+
+/* header part start */
+header {
+    /* border: 1px solid green; */
+    padding: 25px 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    /* border: 1px solid #000; */
+    overflow: hidden;
+}
+
+.logo {
+    width: 10%;
+    float: left;
+    /* border: 1px solid red; */
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu {
+    width: 70%;
+    float: right;
+    /* border: 1px solid red; */
+    margin-top: 2px;
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu ul li {
+    list-style: none;
+    float: left;
+}
+
+.menu ul li a {
+    color: #626262;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 50px;
+    padding: 5px;
+    transition: all 1s ease;
+    border-bottom: 1px solid transparent;
+}
+
+.menu ul li:last-child a {
+    margin-right: 0;
+}
+
+.menu ul li a:hover {
+    border-bottom: 1px solid #626262;
+}
+
+/* header part end */
+
+/* banner part start */
+
+.b_img {
+    width: 100%;
+}
+
+/* banner part end */
+
+/* perfect part start */
+.perfect {
+    padding: 60px 0;
+}
+
+.container2 {
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+
+.perfect__wrapper {}
+
+.perfect__wrapper p {}
+
+.perfect__wrapper h2 {}
+
+.c_p {
+    font-family: Ubuntu-Light;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.c_h2 {
+
+    font-family: PlayfairDisplay-Regular;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.c_text {
+    margin-bottom: 40px;
+    line-height: 25px;
+}
+
+/* perfect part end */
+
+/* blog start */
+.blog {
+    padding-top: 60px;
+}
+
+.single {
+    width: 47%;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.single:nth-child(even) {
+    margin-left: 6%;
+}
+
+.single img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+/* blog end */
+
+/* newsletter start */
+.newsletter {
+    min-height: 500px;
+    background: #ddd;
+    position: relative;
+}
+
+.newsletter__info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    text-align: center;
+}
+
+input {
+    margin-top: 30px;
+}
+
+.email {
+    width: 70%;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    padding: 0 20px;
+}
+
+.sub {
+    width: 20%;
+    padding: 17px;
+    background: #626262;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    margin-left: -20px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+/* newsletter end */
+
+
+/* blog2 start */
+.blog2 {
+    padding-top: 60px;
+}
+
+/* blog2 end */
+/* load start */
+.load {
+    text-align: center;
+    padding: 100px 0 200px;
+}
+
+.load__more {
+    font-family: PlayfairDisplay-Regular;
+    width: 160px;
+    height: 60px;
+    border: 1px solid #626262;
+    outline: none;
+    background: rgb(255, 253, 253);
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.load__more:hover {
+    background: #626262;
+    color: #fff;
+}
+
+/* load end */
+
+/* footer start */
+.footer {
+    background: #ddd;
+    padding: 30px 0;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.footer ul li 
+{
+    float: left;
+}
+.footer ul li a
+{
+    display: inline-block;
+    margin: 0 30px;
+    color: #626262;
+    text-transform: capitalize;
+}
+.terms {
+    float: left;
+    width: 50%;
+}
+
+.socail__info {
+    float: right;
+    width: 50%;
+}
+
+.terms ul
+{
+ float: left;
+}
+
+.socail__info ul
+{
+    float: right;
+}
+
+/* footer start */
